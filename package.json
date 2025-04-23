@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Darya-Savchenko.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -14,6 +17,7 @@
     "@react-three/fiber": "^8.12.0",
     "formik": "^2.2.9",
     "framer-motion": "^10.2.3",
+    "gh-pages": "^6.3.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
