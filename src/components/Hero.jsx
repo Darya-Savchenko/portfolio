@@ -33,7 +33,7 @@ const Hero = () => {
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-22 w-full flex justify-center items-center">
-        <a href="#about">
+        <a href="#about" aria-label="section with a description about me">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex
                 justify-center items-start p-2"

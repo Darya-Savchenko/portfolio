@@ -14,7 +14,6 @@ import {
     figma,
     gym,
     social_app,
-    threejs,
     furniture_shop,
 } from "../assets";
 
@@ -79,10 +78,6 @@ const technologies = [
     {
         name: "MongoDB",
         icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
     },
     {
         name: "git",
